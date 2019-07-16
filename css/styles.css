@@ -2,31 +2,26 @@ body{
   background-color:rgb(103, 112, 128);
   color:#99c1ff; 
 }
-
 header, main,footer {
   text-align: center;
 }
-
 h1{
   font-family:'Bahianita', cursive;
   font-size: 3em;
   margin-bottom 0px;
   text-align:center;
 }
-
 h2{
   font-family:'Bahianita', cursive;
   font-size: 2em;
   margin-bottom 0px;
   text-align:center;
 }
-
 p{
   font-family:'Bahianita', cursive;
   font-size: 2em;
   margin-bottom 0px;
-  text-align:center;
-  
+  text-align:center;  
 }
 footer{
    font-size: 12px;;
@@ -43,7 +38,3 @@ footer{
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
-

@@ -1,12 +1,11 @@
    //Displaying Weather from API after typing a zip code
-
-
+   $("#complete-error").hide();    
    $("#zip-button").on("click",function(){
-      if (!$("#zip-input").val()){
-        // Notify user of empty input
+      if ($("#zip-input").val().length < 5) {
+        $("#complete-error").show();
       }
       else {
-        
+        $("#complete-error").hide();
         $.ajax({
           method:"GET",
           url: "https://api.openweathermap.org/data/2.5/weather?zip=" + $("#zip-input").val() + ",us&appid=e6fe4cdb7a142bce7c909e7e932ec58f",
