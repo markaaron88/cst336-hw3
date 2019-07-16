@@ -13,15 +13,15 @@
         <h2>
          Please enter your zip code to populate your current weather.
         </h2> 
-      
+      <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
       <div class="center">
        <img src = "img/cloud.png" alt = "cloud" /> 
       <p>
-      Zip Code:   <input type="text" name="zip" id="zip"><br>
+      Zip Code:   <input type="text" name="zip" id="zip-input"> <button id = "zip-button">Submit</button><br>
       City:       <span id="city"></span><br>
-      Temperature: <span id ="temp" </span><br>  
-      Temp-Min:<span id ="tempMin" </span><br>
-      Temp-Max:<span id =tempMax </span><br>  
+      Latitude:   <span id ="latitude"></span><br>
+      Longitude:  <span id="longitude"></span><br>  
+      Temperature: <span id ="temp"> </span><br>
       Pressure:<span id ="pressure"></span><br>
       Humidity:<span id="humidity"></span><br>
       </p>
